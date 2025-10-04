@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0b0f23;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #1c2238;
+  padding: 20px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form input, .form button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.form input {
+  flex: 1;
+}
+
+#addBtn {
+  background: #4a6cf7;
+  color: #fff;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.actions button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #444b6e;
+  color: white;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background: #5a63a1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #121628;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #2a2f4c;
+}
+
+th {
+  background: #1f2640;
+}
+
+.highlight {
+  background: #2a3f74;
+  font-weight: bold;
+}
